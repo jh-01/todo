@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@800&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <h1 class="title">To Do List</h1>
+    </div>
+
+    <div id="quote">
+        <span></span>
+        <span></span>
+    </div>
+
+    <div class="container">
+        <div id="" class="section">
+            <div class="box calender-box">
+                <h4>January</h4>
+                <hr class="line1">
+                <table class="calender">
+                    <tr class="table_head">
+                        <th class="sunday">SUN</th>
+                        <th>MON</th>
+                        <th>TUE</th>
+                        <th>WED</th>
+                        <th>THU</th>
+                        <th>FRI</th>
+                        <th class="saturday">SAT</th>
+                    </tr>
+                    
+                    <tr>
+                        <td class="sunday">1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                        <td class="saturday">7</td>
+                    </tr>
+                    <tr>
+                        <td class="sunday">8</td>
+                        <td>9</td>
+                        <td>10</td>
+                        <td>11</td>
+                        <td>12</td>
+                        <td>13</td>
+                        <td class="saturday">14</td>
+                    </tr>
+                    <tr>
+                        <td class="sunday">15</td>
+                        <td>16</td>
+                        <td>17</td>
+                        <td>18</td>
+                        <td>19</td>
+                        <td>20</td>
+                        <td class="saturday">21</td>
+                    </tr>
+                    <tr>
+                        <td class="sunday">22</td>
+                        <td>23</td>
+                        <td>24</td>
+                        <td>25</td>
+                        <td>26</td>
+                        <td>27</td>
+                        <td class="saturday">28</td>
+                    </tr>
+                    <tr>
+                        <td class="sunday">29</td>
+                        <td>30</td>
+                        <td>31</td>
+                        <td>  </td>
+                        <td>  </td>
+                        <td>  </td>
+                        <td class="saturday">  </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="box stopwatch">
+                <h2 id="clock">00:00:00</h2>
+                <div class="buttons">
+                    <button id="play" type="button">▷</button>
+                    <button id="pause" type="button">❚❚</button>
+                    <button id="stop" type="button">□</button>
+                </div>
+                
+            </div>
+        </div>
+    <div id="todo-section" class="section todos">        
+        <div class="box todos">
+            <h4 class="todo-title">to-do</h4>
+            <hr>
+            <form action="" id="todo-form">
+                <input id="todo-input" type="text" placeholder="Write a To Do and Press Enter" required />
+                <button>✔</button>
+            </form>
+            <ul id="todo-list"></ul>
+
+        </div>
+    </div>
+    </div>
+    
+    <!-- <div class="memo">
+        <h5>이번달 평가</h5>
+        <textarea></textarea>
+    </div> -->
+
+    <script src="js/quote.js"></script>
+    <script src="js/clock.js"></script>
+</body>
+</html>

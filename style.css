@@ -1,0 +1,172 @@
+*{
+    background-color: #D8E5E9;
+    font-family: 'Baloo Da 2', cursive;
+}
+
+
+
+/* 제목 */
+.title{
+    font-size: 96px;
+    font-weight: bolder;
+    color: #328195;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+
+
+/* 명언 */
+#quote{
+    text-align: center;
+    background-color: rgb(209, 209, 209);
+    width: 1000px;
+    margin: auto;
+    margin-bottom: 40px;
+    padding: 5px 0px;
+}
+
+#quote span{
+    background-color: rgb(209, 209, 209);
+    color: white;
+    font-size: 25px;
+    font-style: italic;
+    padding: 5px 0px;
+}
+
+
+
+/* 본문 */
+.container{
+    text-align: center;
+    
+}
+
+.box, table, tr, th, td, h4, .todos form, .todos form input, .stopwatch h2{
+    background-color: white;
+}
+
+.section{
+    display: inline-grid;
+    width: 455px;
+    height: 500px;
+}
+
+h4{
+    color: #C2B3DA;
+    margin: 20px 10px 5px 10px;
+}
+
+hr{
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.section:first-child{
+    margin-right: 85px;
+}
+
+
+
+/* 달력 */
+.calender-box{
+    height: 400px;
+}
+
+hr{
+    border: solid 2px gray;
+    margin-bottom: 20px;
+}
+
+table{
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.table_head{
+    border-bottom: 1px solid black;
+    padding: 0px 5px;
+    background-color: #eff6f8;
+}
+
+th{
+    width: 50px;
+    height: 30px;
+    background-color: #eff6f8;
+}
+
+.sunday{
+    color: rgb(172, 67, 67);
+}
+
+.saturday{
+    color: rgb(78, 78, 175);
+}
+
+td{
+    background-color: aliceblue;
+    width: 50px;
+    height: 50px;
+}
+
+.calender{
+    margin: auto;
+}
+
+
+
+/* 시계 */
+.stopwatch{
+    margin-top: 20px;
+    height: 80px;
+    padding-top: 20px;
+}
+
+.stopwatch h2{
+    font-size: 40px;
+    color: #C2B3DA;
+    display: inline;
+    margin-right: 40px;
+}
+
+.buttons{
+    display: inline;
+    background-color: white;
+}
+
+.buttons button{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: -10px;
+    background-color: white;
+}
+
+
+
+/* 투두 */
+#todo-section{
+    height: 520px;
+}
+
+.todos form{
+    margin-left: 25px;
+    text-align: left;
+}
+
+.todos form input{
+    width: 365px;
+}
+
+.todos form button{
+    margin-left: 5px;
+}
+
+
+
+
+/* 메모 */
+.memo{
+    width: 1420px;
+    margin: 0 350px;
+}
